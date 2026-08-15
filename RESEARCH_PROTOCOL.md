@@ -1,4 +1,4 @@
-# PARE Research Protocol v0.2 — FROZEN BEFORE PROTECTED EVALUATION
+# PARE Research Protocol v0.3 — FROZEN BEFORE PROTECTED EVALUATION
 
 Freeze date: 2026-08-15 (Asia/Taipei).
 
@@ -6,7 +6,7 @@ Freeze date: 2026-08-15 (Asia/Taipei).
 Can verification-grounded, risk-aware, dependency-aware minimal recovery improve recovery efficacy/minimality over reproducible zero-cost baselines under deterministic non-atomic faults while satisfying strict false-completion and retry-safety gates?
 
 ## Hypotheses
-- H1: the selected Candidate-v3 lineage has higher Recovery Success Rate than the strongest safety-eligible baseline on a fresh protected set.
+- H1: the candidate selected by the frozen validation selection rule has higher Recovery Success Rate than the strongest safety-eligible baseline on a fresh protected set.
 - H2: it preserves benign state at least as well as that baseline.
 - H3: it satisfies every mandatory safety gate.
 
@@ -30,7 +30,7 @@ Frontier methods are eligible only when a faithful, zero-cost, CPU-compatible im
 ## Candidate lineage
 - Candidate-v1: verification-grounded risk-aware recovery without dependency-aware minimal rollback/state repair.
 - Candidate-v2: adds dependency-scoped minimal rollback and provenance-aware state repair.
-- Candidate-v3: contract-complete lineage adding an explicit ImpactGraph and StateRepairLedger plus the full predeclared secondary metric surface; no discarded v2 protected-like case is reused for tuning.
+- Candidate-v3: contract-complete lineage adding an explicit ImpactGraph and StateRepairLedger plus the full predeclared secondary metric surface; no discarded protected case is reused for tuning.
 
 ## Primary endpoints
 1. Efficacy: Recovery Success Rate.
@@ -61,3 +61,9 @@ Capability passes only if every safety gate passes AND the candidate has a posit
 
 ## No post-hoc rescue
 Protected observations cannot change thresholds, cases, labels, primary metrics, or frozen candidate code. Any later candidate must be a new lineage with a fresh protected seed.
+
+## Pre-protected candidate freeze record
+Applying the unchanged frozen selection rule to the 120-case validation split selected **Candidate-v2**: Candidate-v2 and Candidate-v3 both achieved Recovery Success Rate 0.875, Benign State Preservation 1.00, Duplicate Side-Effect Rate 0.00, and mean recovery actions 0.8083; the simplicity tie-break therefore selected Candidate-v2. Candidate-v1 achieved 0.85 recovery success. This selection is recorded before the v0.3 protected seed is generated.
+
+## v0.2 integrity disposition
+A prior v0.2 protected attempt is invalidated because H1 named Candidate-v3 while the frozen selection rule selected Candidate-v2. Its seed/results are preserved under `evidence/integrity/invalidated-v0.2/` and are prohibited from tuning. v0.3 changes hypothesis wording only; candidate logic, thresholds, benchmark semantics, primary metrics, and selection rule remain unchanged.

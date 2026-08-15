@@ -2,4 +2,4 @@
 
 Active lineage: `research/pare-v1`.
 
-Candidate-v3 source/protocol are being frozen before fresh protected evaluation. Until the post-freeze protected artifact exists, protected capability is **NOT YET ESTABLISHED**.
+Candidate selection is frozen at **Candidate-v2** under the unchanged validation rule. The v0.2 protected attempt is invalidated due to a protocol-text/selection mismatch. v0.3 requires a fresh protected seed after this corrected protocol commit; capability remains **NOT YET ESTABLISHED** until that evaluation completes.

@@ -1,0 +1,15 @@
+{
+  "selection_rule_version": "RESEARCH_PROTOCOL v0.3 (rule unchanged from v0.2)",
+  "selected_candidate": "Candidate-v2",
+  "candidate_v1_recovery_success_rate": 0.85,
+  "candidate_v2_recovery_success_rate": 0.875,
+  "candidate_v3_recovery_success_rate": 0.875,
+  "candidate_v2_benign_state_preservation_rate": 1.0,
+  "candidate_v3_benign_state_preservation_rate": 1.0,
+  "candidate_v2_duplicate_side_effect_rate": 0.0,
+  "candidate_v3_duplicate_side_effect_rate": 0.0,
+  "candidate_v2_mean_recovery_actions": 0.8083333333333333,
+  "candidate_v3_mean_recovery_actions": 0.8083333333333333,
+  "tie_break": "simpler candidate -> Candidate-v2",
+  "protected_data_used_for_selection": false
+}
