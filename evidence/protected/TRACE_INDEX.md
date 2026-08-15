@@ -1,0 +1,5 @@
+# Protected trace index
+
+The formal v0.3 protected run contains 72 deterministic case executions under seed `3000603268395507528`. The executable runner records for each case: scenario id/domain/fault, pre/post state hashes, agent-visible observation, recovery operations and mode, final verification verdict, oracle goal satisfaction, false-completion flag, duplicate/destructive side-effect counts, and benign-state preservation. Aggregate and stratified projections are committed under `results/`.
+
+The canonical protected scenario set is identified by manifest SHA-256 `45fb1bd67071fd2f5300db9e218b1c14810a82075dbcfcfecf736e45b4ec3dc3`; result summary SHA-256 is `73d47f11acbd9899d6d90b913dfa718d772153adc372d8d3bf2193ccb26a69cc` from the formal local artifact. Reproduction uses the published seed plus frozen generator/candidate/metric hashes. Raw full per-case CSV remains reproducible from `python -m pare.evaluation.experiment`; no protected result is required for candidate selection or tuning.

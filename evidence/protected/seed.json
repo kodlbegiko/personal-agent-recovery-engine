@@ -1,0 +1,6 @@
+{
+  "candidate_commit_sha": "57c2f6e70666714de51236a9bbe4b3d4cd907c52",
+  "generator_sha256": "60f05fe2944b532656dbc16f71b533abd7940fe1be83b09f530298b68b928d2c",
+  "provenance": "Python secrets.randbits(63) after freeze manifest creation",
+  "seed": 3000603268395507528
+}

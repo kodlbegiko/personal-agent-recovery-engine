@@ -1,0 +1,10 @@
+scenario_id,domain,fault,oracle_success,state_repair_required,state_repair_attempted,state_repair_correct,affected_state_invalidated,benign_preserved
+protected-0016,personal_state,STATE_WRITE_CORRUPTION,1,1,1,1,1,1
+protected-0022,personal_state,CONCURRENT_MUTATION,1,1,1,1,1,1
+protected-0028,personal_state,DUPLICATE_DELIVERY,1,1,1,1,1,1
+protected-0029,composite,CRASH_BEFORE_COMMIT,0,1,1,1,1,1
+protected-0035,composite,WRONG_TARGET,1,1,1,1,1,1
+protected-0040,personal_state,PRE_DISPATCH_FAILURE,0,1,1,1,1,1
+protected-0047,composite,PARTIAL_MUTATION,1,1,1,1,1,1
+protected-0064,personal_state,STATE_WRITE_CORRUPTION,1,1,1,1,1,1
+protected-0070,personal_state,CONCURRENT_MUTATION,1,1,1,1,1,1

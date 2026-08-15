@@ -1,0 +1,15 @@
+{
+  "baseline": "B0",
+  "validation_recovery_success_rate": 0.6,
+  "protected": {
+    "cases": 72,
+    "recovery_success_rate": 0.6111111111111112,
+    "false_completion_rate": 0.0,
+    "duplicate_side_effect_rate": 0.05555555555555555,
+    "destructive_side_effect_rate": 0.06944444444444445,
+    "benign_state_preservation_rate": 1.0,
+    "post_recovery_verification_coverage": 1.0,
+    "state_repair_recall": 0.5555555555555556
+  },
+  "selection_reason": "Highest efficacy among safety-qualifying baselines under frozen tie ordering; B0/B5 were efficacy-equivalent, B0 selected by deterministic order."
+}

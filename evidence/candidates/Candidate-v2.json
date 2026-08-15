@@ -1,0 +1,9 @@
+{
+  "parent": "Candidate-v1",
+  "hypothesis": "dependency-scoped minimal recovery and provenance-aware state repair improve efficacy/minimality without safety regression",
+  "validation_recovery_success_rate": 0.875,
+  "freeze_commit_sha": "57c2f6e70666714de51236a9bbe4b3d4cd907c52",
+  "protected_outcome": "SUPPORTED",
+  "policy_version": "pare-v3-policy-1.0",
+  "note": "Selected over Candidate-v3 by frozen simplicity tie-break after identical validation metrics."
+}

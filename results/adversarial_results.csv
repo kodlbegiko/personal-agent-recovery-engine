@@ -1,0 +1,2 @@
+suite,cases,recovery_success_rate,false_completion_rate,duplicate_side_effect_rate,destructive_side_effect_rate,benign_state_preservation_rate,post_recovery_verification_coverage
+synthetic-adversarial,28,1.0,0.0,0.0,0.0,1.0,1.0
