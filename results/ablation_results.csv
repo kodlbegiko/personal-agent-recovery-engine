@@ -1,0 +1,9 @@
+ablation,cases,recovery_success_rate,false_completion_rate,duplicate_side_effect_rate,destructive_side_effect_rate,benign_state_preservation_rate,state_repair_recall,post_recovery_verification_coverage
+full,96,0.8541666666666666,0.0,0.0,0.020833333333333332,1.0,1.0,1.0
+no_idempotency,96,0.8541666666666666,0.0,0.0,0.020833333333333332,1.0,1.0,1.0
+no_verify_before_retry,96,0.8541666666666666,0.0,0.0,0.020833333333333332,1.0,1.0,1.0
+no_risk_layer,96,0.875,0.0,0.0,0.0,1.0,1.0,1.0
+no_dependency_graph,96,0.8541666666666666,0.0,0.0,0.020833333333333332,1.0,1.0,1.0
+no_minimal_rollback,96,0.8541666666666666,0.0,0.0,0.020833333333333332,1.0,1.0,1.0
+no_state_repair,96,0.8333333333333334,0.0,0.0,0.020833333333333332,1.0,0.5714285714285714,1.0
+no_reverification,96,0.8541666666666666,0.0,0.0,0.020833333333333332,1.0,1.0,0.625

@@ -1,0 +1,7 @@
+{
+  "capability_success": true,
+  "scientific_success": true,
+  "selected_candidate": "Candidate-v2",
+  "strongest_baseline": "B0",
+  "terminal_state": "READY_FOR_UMBRELLA_INTEGRATION"
+}

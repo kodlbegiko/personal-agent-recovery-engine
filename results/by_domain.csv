@@ -1,0 +1,7 @@
+method,domain,cases,recovery_success_rate,false_completion_rate,duplicate_side_effect_rate,destructive_side_effect_rate,benign_state_preservation_rate
+Candidate-v2,calendar,12,0.8333333333333334,0.0,0.0,0.0,1.0
+Candidate-v2,composite,12,0.9166666666666666,0.0,0.0,0.0,1.0
+Candidate-v2,files,12,0.8333333333333334,0.0,0.0,0.0,1.0
+Candidate-v2,messaging,12,0.75,0.0,0.16666666666666666,0.0,1.0
+Candidate-v2,personal_state,12,0.9166666666666666,0.0,0.0,0.0,1.0
+Candidate-v2,tasks,12,0.9166666666666666,0.0,0.0,0.0,1.0

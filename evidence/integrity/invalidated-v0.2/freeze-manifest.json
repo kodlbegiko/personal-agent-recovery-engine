@@ -1,0 +1,12 @@
+{
+  "baseline_versions": ["B0","B1","B2","B3","B4","B5"],
+  "benchmark_generator_sha256": "60f05fe2944b532656dbc16f71b533abd7940fe1be83b09f530298b68b928d2c",
+  "candidate_commit_sha": "087523ba2ae3689937b288860abe38214e9eb778",
+  "candidate_source_sha256": "645d9fef9340a92bbbcbf8bb2e6843b55a70ed55fa43ea2c0dbe77f229a43713",
+  "candidate_version": "Candidate-v2",
+  "freeze_manifest_sha256": "c42e46bb47d4c2b0eb3f9297e42d6018cc9f6b4b805ce15292d7924e48edec85",
+  "metric_definition_sha256": "f7a4bdc72ae908de4a33361a4a238a9b73167fb436c3625a0689ff08ce8ec6fd",
+  "policy_version": "pare-v3-policy-1.0",
+  "protocol_sha256": "54103d095716e085b05c4dc58bf0383f8c33c3cec15961d57b767a4da60815f7",
+  "disposition": "INVALIDATED_PROTOCOL_TEXT_SELECTION_MISMATCH"
+}

@@ -1,0 +1,16 @@
+name: protected-evaluation
+on:
+  workflow_dispatch:
+jobs:
+  protected:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install -e '.[dev]'
+      - run: python scripts/verify_integrity.py
+      - run: python scripts/verify_freeze.py
+      - run: PARE_CANDIDATE_COMMIT_SHA=${{ github.sha }} python -m pare.evaluation.experiment
+      - uses: actions/upload-artifact@v4
+        with: {name: protected-evidence, path: 'results/**'}

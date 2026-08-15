@@ -1,0 +1,14 @@
+{
+  "baseline_versions": ["B0", "B1", "B2", "B3", "B4", "B5"],
+  "benchmark_generator_sha256": "60f05fe2944b532656dbc16f71b533abd7940fe1be83b09f530298b68b928d2c",
+  "candidate_commit_sha": "57c2f6e70666714de51236a9bbe4b3d4cd907c52",
+  "candidate_source_sha256": "645d9fef9340a92bbbcbf8bb2e6843b55a70ed55fa43ea2c0dbe77f229a43713",
+  "candidate_version": "Candidate-v2",
+  "environment": {"python": "3.13.5"},
+  "freeze_manifest_sha256": "a64185f61c6eec2174c488afed55b16bbfe79d1b7cd9c0771a3ee601d8509c3b",
+  "freeze_timestamp": "2026-08-15T12:37:05.753202+00:00",
+  "metric_definition_sha256": "f7a4bdc72ae908de4a33361a4a238a9b73167fb436c3625a0689ff08ce8ec6fd",
+  "policy_sha256": "645d9fef9340a92bbbcbf8bb2e6843b55a70ed55fa43ea2c0dbe77f229a43713",
+  "policy_version": "pare-v3-policy-1.0",
+  "protocol_sha256": "cf58cb684a3702f8b5422345df706e0bb32409bc31cbf02f77c991f5daf2e0c5"
+}

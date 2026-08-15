@@ -1,0 +1,9 @@
+{
+  "candidate_commit_sha": "57c2f6e70666714de51236a9bbe4b3d4cd907c52",
+  "candidate_sha256": "645d9fef9340a92bbbcbf8bb2e6843b55a70ed55fa43ea2c0dbe77f229a43713",
+  "development_manifest": "5b5bc308e5bc9fadbde060a7a65b4060557a17bdac219a86a7db349057bc5a23",
+  "generator_sha256": "60f05fe2944b532656dbc16f71b533abd7940fe1be83b09f530298b68b928d2c",
+  "metrics_sha256": "f7a4bdc72ae908de4a33361a4a238a9b73167fb436c3625a0689ff08ce8ec6fd",
+  "protected_manifest": "45fb1bd67071fd2f5300db9e218b1c14810a82075dbcfcfecf736e45b4ec3dc3",
+  "validation_manifest": "efa312ee111608414b612379ed694692de11d87421f648479bbd77d128158f96"
+}
