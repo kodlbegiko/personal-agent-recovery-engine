@@ -1,0 +1,14 @@
+name: research-release-check
+on:
+  workflow_dispatch:
+jobs:
+  release-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install -e '.[dev]'
+      - run: python -m pytest
+      - run: python scripts/verify_freeze.py
+      - run: test -f artifacts/terminal.json && test -f results/reports/final-report.md

@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this research artifact, cite this repository."
+title: "Personal Agent Recovery Engine"
+version: 0.1.0
+date-released: 2026-08-15
+authors:
+  - family-names: "Liu"
+repository-code: "https://github.com/kodlbegiko/personal-agent-recovery-engine"
